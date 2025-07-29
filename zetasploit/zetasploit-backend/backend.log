@@ -1,0 +1,616 @@
+Starting msfrpcd with password: =Qhtv#&)e\zrec(V
+Zetasploit Backend API Key: 1IKZGdKZZ0qgfP1XD7J0HPxbenIMwjqn
+ * Serving Flask app 'app'
+ * Debug mode: on
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.129:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 141-343-406
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "GET /api_key HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "GET /api_key HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "OPTIONS /modules/search?q= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "OPTIONS /platforms HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "OPTIONS /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "OPTIONS /console/create HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "OPTIONS /msfvenom/payloads HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:40] "GET /msfvenom/payloads HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 59
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 59
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 59
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 59
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 18
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 18
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 18
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 18
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 93527
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:41] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 232
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 12
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:41] "GET /platforms HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 65280
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 24
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:52] "POST /console/create HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 42060
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:52] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:52] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 13440
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:52] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 755
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 184
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:52] "GET /modules/search?q= HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:07:55] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:00] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:00] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:05] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:10] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:10] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:15] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:15] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:17] "OPTIONS /msfvenom/generate HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:20] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:20] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:20] "[35m[1mPOST /msfvenom/generate HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:25] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:25] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:30] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:30] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:35] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:40] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:40] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:45] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:45] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:50] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:50] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:08:55] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:00] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:00] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:05] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:10] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:10] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:15] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:20] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:20] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:25] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:30] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:30] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:35] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:40] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:40] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:45] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:50] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:50] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:09:55] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:00] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:00] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:05] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:10] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:10] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:15] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:20] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:20] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:25] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:30] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:30] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:35] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:40] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:40] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:45] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:45] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:50] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:50] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:55] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:10:55] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:00] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:00] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:05] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:05] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:10] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:10] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:15] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:15] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:20] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:20] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:25] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:25] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:30] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:30] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:35] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:40] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:40] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:45] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:50] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:50] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:55] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:11:55] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:00] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:00] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:05] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:05] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:10] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:10] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:15] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:15] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "GET /api_key HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "GET /api_key HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "OPTIONS /modules/search?q= HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "OPTIONS /msfvenom/payloads HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "OPTIONS /platforms HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "OPTIONS /console/create HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "GET /msfvenom/payloads HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 93527
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 232
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:19] "GET /platforms HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 43
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 65280
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 24
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:23] "POST /console/create HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 42060
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 13440
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 755
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 184
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:23] "GET /modules/search?q= HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:24] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:25] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:29] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:29] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:29] "OPTIONS /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:29] "[31m[1mPOST /console/write HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:30] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 74
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1791
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:30] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:34] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:39] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:39] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:44] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:44] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:50] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:50] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:53] "OPTIONS /console/write HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 74
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 9
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:53] "POST /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:53] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 111
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:53] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:12:55] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:00] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:00] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:00] "OPTIONS /console/write HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 9
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:00] "POST /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:01] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 71
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:01] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:05] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:05] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:07] "OPTIONS /console/write HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 9
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:07] "POST /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:07] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 70
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:07] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:10] "[31m[1mPOST /console/write HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:10] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:10] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 56
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:10] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:15] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:15] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:20] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:20] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:23] "OPTIONS /console/write HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 9
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:23] "POST /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:23] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 56
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:24] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:26] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:30] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:30] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:35] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:35] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:40] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:40] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:45] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:45] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:50] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:50] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:55] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:13:55] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:00] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:05] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:05] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:10] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:15] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:15] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:20] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:25] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:25] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:30] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:35] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:35] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:40] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:45] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:45] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:50] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:55] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:14:55] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:00] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:05] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:05] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:10] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:15] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:15] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:20] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:26] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:26] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:27] "OPTIONS /console/write HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 9
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:27] "POST /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:28] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 108
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:28] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:31] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:31] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:36] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:41] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:41] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:46] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:51] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:51] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:15:56] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:01] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:01] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:06] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:11] "OPTIONS /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:11] "[31m[1mPOST /console/write HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:11] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:11] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:11] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 274
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:11] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:16] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:21] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:21] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:22] "OPTIONS /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:22] "[31m[1mPOST /console/write HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:23] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 274
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:23] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:26] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:29] "OPTIONS /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:29] "[31m[1mPOST /console/write HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:29] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 165
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:29] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:31] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:31] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:36] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:36] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:37] "OPTIONS /console/write HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:37] "[31m[1mPOST /console/write HTTP/1.1[0m" 403 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:37] "OPTIONS /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 97
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 165
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:37] "GET /console/read?console_id=1 HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:41] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:46] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:46] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:51] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:56] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:16:56] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:17:01] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:17:06] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:17:06] "GET /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:17:11] "GET /jobs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:17:16] "OPTIONS /jobs HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:55553
+DEBUG:urllib3.connectionpool:http://127.0.0.1:55553 "POST /api/ HTTP/1.1" 200 1
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2025 15:17:16] "GET /jobs HTTP/1.1" 200 -

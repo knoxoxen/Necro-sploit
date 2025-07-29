@@ -1,0 +1,84 @@
+.App {
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+.navbar {
+  background-color: #111 !important;
+  border-bottom: 1px solid #444;
+}
+
+.navbar-brand {
+  color: #9d78ff !important;
+  font-family: 'Nosifer', cursive;
+}
+
+.nav-link {
+  color: #a9a9a9 !important;
+}
+
+.nav-link:hover {
+  color: #9d78ff !important;
+}
+
+.btn-outline-success {
+  color: #9d78ff;
+  border-color: #9d78ff;
+}
+
+.btn-outline-success:hover {
+  background-color: #9d78ff;
+  color: #111;
+}
+
+.form-control {
+  background-color: #2c2c2c;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+.form-control:focus {
+  background-color: #2c2c2c;
+  border-color: #9d78ff;
+  color: #e0e0e0;
+  box-shadow: 0 0 0 0.25rem rgba(157, 120, 255, 0.25);
+}
+
+.accordion-item {
+  background-color: #2c2c2c;
+  border-color: #444;
+}
+
+.accordion-header button {
+  background-color: #1f1f1f;
+  color: #9d78ff;
+}
+
+.accordion-body {
+  background-color: #2c2c2c;
+}
+
+.list-group-item {
+  background-color: #2c2c2c;
+  border-color: #444;
+  color: #e0e0e0;
+}
+
+.list-group-item:hover {
+  background-color: #3c3c3c;
+}
+
+.console-output {
+  background-color: #111;
+  border: 1px solid #444;
+  height: 400px;
+  overflow-y: scroll;
+  padding: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+pre {
+  color: #0f0;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
