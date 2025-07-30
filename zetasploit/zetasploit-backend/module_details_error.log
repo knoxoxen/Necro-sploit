@@ -1,7 +1,0 @@
-Error getting module details for exploits/aix/local/ibstat_path: Unknown module type aix/local/ibstat_path not: exploit, post, encoder, auxiliary, nop, or payload
-Traceback (most recent call last):
-  File "/home/kn0x/Downloads/PROGRAMS/zetasploit/zetasploit-backend/app.py", line 107, in get_module_details
-    module = client.modules.use(module_type, module_name)
-  File "/home/kn0x/Downloads/PROGRAMS/zetasploit/zetasploit-backend/venv/lib/python3.13/site-packages/pymetasploit3/msfrpc.py", line 1808, in use
-    raise MsfRpcError('Unknown module type %s not: exploit, post, encoder, auxiliary, nop, or payload' % mname)
-pymetasploit3.msfrpc.MsfRpcError: Unknown module type aix/local/ibstat_path not: exploit, post, encoder, auxiliary, nop, or payload
